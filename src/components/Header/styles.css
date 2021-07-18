@@ -1,0 +1,45 @@
+.logo-title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Unna", serif;
+  text-transform: uppercase;
+}
+
+.title:last-child {
+  text-transform: uppercase;
+  font-size: 160px;
+  font-weight: normal;
+  font-family: var(--main-font-style);
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image-logo {
+  width: 200px;
+  height: 100px;
+}
+
+.other-section {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+
+.other-section:last-child {
+  text-transform: uppercase;
+  font-weight: 400;
+}

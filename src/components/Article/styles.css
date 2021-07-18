@@ -1,0 +1,14 @@
+.container {
+  background: url('./lime.jpeg') center/cover no-repeat;
+  color: var(--font-color);
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 800px;
+  height: 1100px;
+  margin: auto;
+  justify-content: space-between;
+  box-shadow: inset 0 0 0 25px #fbd033;
+  text-shadow: 2px 2px 5px #333232;
+  font-family: var(--main-font-style);
+}

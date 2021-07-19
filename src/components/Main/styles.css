@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--secondary-font-style);
+}
+
+.chefs-list {
+  text-transform: uppercase;
+  padding-right: 50%;
+}
+
+.italys-finest {
+  font-family: var(--secondary-font-style);
+  font-size: 136px;
+  letter-spacing: -0.56px;
+  line-height: 107px;
+  padding: 27px 0;
+}
+
+.other-contents {
+  padding: 20px 0;
+}
+
+.other-contents-title {
+  font-family: var(--secondary-font-style);
+  font-size: 30px;
+}
+
+.other-contents-description {
+  font-family: var(--main-font-style);
+  text-transform: uppercase;
+  padding-right: 60%;
+}

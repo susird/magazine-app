@@ -1,0 +1,5 @@
+.footer {
+  font-family: var(--main-font-style);
+  text-transform: uppercase;
+  font-weight: bold;
+}
